@@ -31,9 +31,9 @@ To send Rich Embeds though your Webhook, you will need to install the [discord.p
 import discordhook
 import discord  # discord.py
 
-hook = discordhook.Client('https://canary.discordapp.com/api/webhooks/347315769891356683/N4SXwBdtoU-29Ume3lYir9Mxor5qeWL--aIRd-O5iLTMqMTmxF_rILhlgYoUU1TEOn6Y',
+hook = discordhook.Client('Webhook URL',
                           embed=discord.Embed(description='Hello World').to_dict(),
                           name='My WebHook',
-                          avatar_url='http://nothing.com')
+                          avatar_url='Image URL')
 hook.send()
 ```
