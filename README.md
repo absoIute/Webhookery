@@ -5,8 +5,10 @@ Move the [discordhook.py](discordhook.py) file into your Python directory and in
 
 ## Creating a Webhook
 1) Navigate to the __Webhooks__ page in server settings and click __Create Webhook__.
+
 ![](https://image.prntscr.com/image/_Hly1DCeRT6JeeLLDyVVkQ.png)
 2) Copy the Webhook url
+
 ![](https://image.prntscr.com/image/SjNR5kt_QR_Z-9HLXjW4ug.png)
 
 ## Sending Messages
